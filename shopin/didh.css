@@ -1,0 +1,152 @@
+/*universial styling är detta som gäller all kod.*/
+*{  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: solid;
+}
+/*all h2 text till vänter*/
+h2{
+  text-align: left;
+}
+/*all h3 text ska göra det samma som h3 gör*/
+h3{
+  text-align: inherit;
+}
+/*visa flex vilket visar oss området och radar upp min kod*/
+.container1{
+  display: flex;
+}
+/*clickbara sektionen längst upp och med färgen transparent*/
+.boxI{
+  background: transparent;
+  width: 220px;
+  height: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+/*hur bilarna är uppställda*/
+.Bilarna{
+  display:flex;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+.box2{
+  display: flex;
+  background: grey;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+}
+
+.card{
+  background-color: green;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+
+/*Korten och dess storlekar med felx justeringar*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+/*Bakgrunds bild*/
+body{
+  background: burlywood;
+}
+/*flex för att rada upp den med samtliga*/
+.container {
+  display:flex
+}
+/*hur korten visas vanligt*/
+.card{
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 15px;
+
+}
+/*det som finns bakom korten*/
+.card-image {
+  background-color: aqua;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+ 
+}
+/*hur och vilka bilder som är länkade*/
+.car-1{
+  background-image: url(./2021-polestar-2_100787949_h.jpg);
+
+}
+
+.car-2{
+  background-image: url(./Volvo\ s60\ polestar\ 2.0.jpg);
+
+}
+
+.car-3{
+  background-image: url(./Nissan_GT-R_Grey_Motion_527653_1920x1080.jpg);
+
+}
+
+.car-4{
+  background-image: url(./2009-ford-focus-rs-2.jpg);
+
+}
+
+.card h2{
+  padding: 10px;
+}
+
+.card p{
+  padding: 10px;
+}
+/*hur kortens kontrast är skrivna*/
+.card a{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+}
+/*mekaniken bakom hur korten skiftar och tiden samt sättet är uppbyggd*/
+.card:hover {
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: all 1s ease;
+}
+
+/*Texten under och positionerna samt storlek för den*/
+
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
+  background-color: transparent;
+  text-align: right;
+}
+
+
+.texta{
+  text-align: center;
+}
